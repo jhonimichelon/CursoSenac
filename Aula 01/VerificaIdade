@@ -1,0 +1,19 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    int idade;
+    int cont = 0;
+    int i;
+    
+    for(i = 1; i <= 10; i++){
+      Console.WriteLine ("Insira a idade da pessoa " + i +": ");
+      idade = Int32.Parse(Console.ReadLine());
+      if(idade > 18){
+        cont = cont + 1;
+      }
+    }
+
+    Console.WriteLine("Total de pessoas com mais de 18 anos:" + cont);
+  }
+}

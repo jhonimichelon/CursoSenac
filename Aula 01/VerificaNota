@@ -1,0 +1,15 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    Console.WriteLine ("Informe a nota do aluno:");
+    int nota = Int32.Parse(Console.ReadLine());
+
+    if(nota >= 7){
+      Console.WriteLine("Aluno aprovado");
+    }
+    else if(nota < 7){
+      Console.WriteLine("Aluno reprovado");
+    }
+  }
+}s
